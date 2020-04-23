@@ -812,6 +812,9 @@ body {
   .heading {
     font-size: 60px;
   }
+  .nav_bar .logo {
+    margin-left: 20px;
+  }
   .nav_bar .nav_container {
     width: 80%;
   }
@@ -819,8 +822,10 @@ body {
     font-size: 12px;
   }
   .btn {
-    width: 360px;
-    left: calc(50% - 180px);
+    font-size: 10px;
+    height: 45px;
+    width: 240px;
+    left: calc(50% - 120px);
   }
   .home_container {
     display: -webkit-box;
@@ -927,6 +932,9 @@ body {
     padding: 20px 10px;
     height: 450px;
     width: 90%;
+  }
+  .contact .contact_frm .frm_button {
+    height: 50px;
   }
   .contact .contact_frm .frm_group {
     margin: 5px;

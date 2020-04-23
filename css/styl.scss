@@ -796,6 +796,9 @@ box-shadow:
         font-size: 60px;
     }
     .nav_bar{
+        .logo{
+            margin-left: 20px;
+        }
         
         .nav_container{
 
@@ -812,8 +815,10 @@ box-shadow:
    }}
    
    .btn{
-       width: 360px;
-       left: calc(50% - 180px);
+       font-size: 10px;
+        height: 45px;
+       width: 240px;
+       left: calc(50% - 120px);
    }
     .home_container{
         
@@ -927,6 +932,9 @@ box-shadow:
         }
 
         .contact_frm{
+            .frm_button{
+                height: 50px;
+            }
             .frm_group{
                 margin: 5px;
             }
