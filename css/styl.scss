@@ -37,9 +37,6 @@ body{
     background-color: $h_black;
 }
 
-.picture_col img{
-    height: 300px;
-}
 
 .nav_bar{
     backdrop-filter: blur(10px);
@@ -142,7 +139,7 @@ body{
         left: -450px;
         animation: light_2 5s infinite linear; 
         background: url(bin/Ellipse_2.png) center no-repeat ;
-           
+        
 
     }
         
@@ -197,10 +194,10 @@ transition: .3s;
     height: 100%;
     
     .picture_col{
-        padding-right: 50px;
-        width: 40%;
+        
+        width: 50%;
         position: relative;
-        img{margin: auto;
+        img{margin: auto 0;
             position: absolute;
            border-radius: 3%;
             height: 200px;
@@ -227,7 +224,7 @@ transition: .3s;
             opacity: .2;
 
             z-index: 53;
-            bottom: 15%;
+            
             animation: 
             light 10s  infinite ease-out,
             movement_2 10s 5s infinite  
@@ -614,7 +611,339 @@ box-shadow:
 }
 
 
+@media(max-width:1200px){
+    .heading,.contact_head,.intro_topic{
+       
+    }
+    .lighting_3{
+        
+       display: none;
+    
+    }
+
+    .nav_bar{
+        
+        .nav_container{
+       width: 40%;
+       
+       
+   }}
+
+    .home_container{
+        
+        display: flex;
+        flex-direction: column;
+
+        .picture_col{
+            margin: 0 auto;
+            position: absolute;
+            top: 280px;
+            left: 20%;
+            .image_1{
+                height: 250px;
+
+            }
+            .image_2{
+                height: 300px;
+            }
+            .image{
+                height: 175px;
+            }
+
+           
+            
+
+        }
+        .head{
+            position: absolute;
+            width: 100%;
+            bottom: 60px;
+        }
+    }
+
+    .intro{
+        .head_bar{
+
+            height: 320px;
+
+            .head{
+                top: 100px;
+            }
+        }
+        .intro_container{
+            .intro_img_container{
+                min-width: 400px;
+            }
+        }
+    }
+
+    .contact{
+        .contact_frm{
+            width: 70%;
+        }
+    }
+    
+}
 
 
 
 
+    
+
+@media(max-width:850px){
+
+
+    .heading{
+        font-size: 60px;
+    }
+    .nav_bar{
+        
+        .nav_container{
+       width: 60%;
+       
+       
+   }}
+   
+    .home_container{
+        
+        
+        display: flex;
+        flex-direction: column;
+
+        .picture_col{
+            margin: 0 auto;
+            position: absolute;
+            top: 250px;
+            left: 20%;
+            .image_1{
+                height: 200px;
+
+            }
+            .image_2{
+                height: 250px;
+            }
+            .image{
+                height: 150px;
+            }
+
+           
+            
+
+        }
+        .head{
+            position: absolute;
+            width: 100%;
+            bottom: 60px;
+            .sub_heading{
+                width: 90%;
+            }
+        }
+    }
+
+    .intro{
+
+        height: 1000px;
+        .head_bar{
+
+            height: 320px;
+
+            .head{
+                top: 100px;
+            }
+        }
+        .intro_container{
+            height: auto;
+            display: flex;
+           flex-direction : column;
+            padding-top: 50px;
+            .intro_img_container{
+                margin: 0 auto;
+                
+                min-width: 400px;
+                padding: 0px 0;
+
+                .intro_img{
+                    
+                    height: auto;
+                }
+            }
+            .intro_txt_container{
+                padding: 40px 30px;
+            }
+        }
+    }
+
+    .contact{
+        .contact_frm{
+            width: 90%;
+        }
+    }
+    
+
+
+
+
+}
+
+
+
+@media(max-width:650px){
+.home{
+    height: 640px;
+}
+
+    .heading{
+        font-size: 60px;
+    }
+    .nav_bar{
+        
+        .nav_container{
+
+       width: 80%;
+       .nav_list_container{
+
+        a{
+            font-size: 12px;
+        }
+           
+       }
+       
+       
+   }}
+   
+   .btn{
+       width: 360px;
+       left: calc(50% - 180px);
+   }
+    .home_container{
+        
+        
+        display: flex;
+        flex-direction: column;
+
+        .picture_col{
+            margin: 0 auto;
+            position: absolute;
+            top: 250px;
+            right: 100%;
+            .image_1{
+                height: 180px;
+
+            }
+            .image_2{
+                height: 220px;
+            }
+            .image{
+                height: 120px;
+            }
+
+           
+            
+
+        }
+        .head{
+            
+            position: absolute;
+            width: 100%;
+            bottom: 60px;
+            .heading{
+                font-size: 25px;
+            }
+            .sub_heading{
+                font-size: 12px;
+                width: 90%;
+            }
+        }
+    }
+
+    .intro{
+
+        height: 800px;
+        .head_bar{
+
+            height: 280px;
+
+            .head{
+                left: 0;
+                padding: 0;
+                margin: 0;
+                top: 120px;
+                .intro_heading{
+                    width: 90%;
+                    font-size: 20px;
+                }
+                .intro_sub_heading{
+                    width: 90%;
+                    font-size: 10px  ;
+                }
+            }
+        }
+        .intro_container{
+            min-width: 300px;
+            height: auto;
+            display: flex;
+           flex-direction : column;
+            padding-top: 50px;
+            .intro_img_container{
+                margin: 0 auto;
+                min-width: 0;
+                width: 100%;
+               
+                padding: 0px 0;
+
+                .intro_img{
+                    padding: 0 20px;
+                    min-width: 200px;
+                    min-height: 0;
+                    width: 100%;
+                    min-width: 340px;
+                    height: auto;
+                }
+            }
+            .intro_txt_container{
+
+                padding: 40px 20px;
+                .intro_topic{
+                    font-size: 28px;
+                    
+                }
+                .intro_pharagraph{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .contact{
+        padding-top: 80px;
+        text-align: center;
+        
+        .contact_head{
+            
+            padding:0 20px;
+            padding-bottom: 30px;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+
+        .contact_frm{
+            .frm_group{
+                margin: 5px;
+            }
+            padding: 20px 10px;
+            height: 450px;
+            width: 90%;
+
+            .frm_groups{
+                flex-direction: column;
+                .frm_group{
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+    
+
+
+}
