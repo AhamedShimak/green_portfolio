@@ -842,6 +842,8 @@ body {
             flex-direction: column;
   }
   .home_container .picture_col {
+    -webkit-transform: translateX(-40px);
+            transform: translateX(-40px);
     margin: 0 auto;
     position: absolute;
     top: 250px;

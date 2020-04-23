@@ -198,6 +198,7 @@ transition: .3s;
     
     .picture_col{
         
+        
         width: 50%;
         position: relative;
         img{margin: auto 0;
@@ -830,6 +831,8 @@ box-shadow:
         flex-direction: column;
 
         .picture_col{
+
+            transform: translateX(-40px);
             margin: 0 auto;
             position: absolute;
             top: 250px;
