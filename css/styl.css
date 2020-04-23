@@ -88,12 +88,16 @@ body {
 }
 
 .nav_bar .nav_container .nav_list_container li a {
+  -webkit-transition: color .6s;
+  transition: color .6s;
   font-weight: 700;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
 
 .nav_bar .nav_container .nav_list_container li a:hover {
+  -webkit-transition: .6s;
+  transition: .6s;
   color: #2cb11b;
 }
 
@@ -149,6 +153,7 @@ body {
   font-size: 16px;
   letter-spacing: 6px;
   text-transform: uppercase;
+  cursor: pointer;
   color: #2cb11b;
   height: 60px;
   width: 400px;
@@ -935,6 +940,7 @@ body {
   }
   .contact .contact_frm .frm_button {
     height: 50px;
+    padding: 0;
   }
   .contact .contact_frm .frm_group {
     margin: 5px;

@@ -82,6 +82,7 @@ body{
             flex-direction: row;
             li a{
                 
+                transition: color .6s;
                 font-weight: 700;
                 letter-spacing: 4px;
                 text-transform: uppercase;
@@ -90,9 +91,9 @@ body{
             li{
                 a:hover{
                     
-
+                        transition: .6s;
                         color: $h_green_high;
-                    
+
                 }
             }
 
@@ -158,6 +159,8 @@ body{
     font-size: 16px;
     letter-spacing: 6px;
     text-transform: uppercase;
+
+    cursor: pointer;
 
     color: $h_green_high;
     
@@ -934,6 +937,7 @@ box-shadow:
         .contact_frm{
             .frm_button{
                 height: 50px;
+                padding: 0;
             }
             .frm_group{
                 margin: 5px;
